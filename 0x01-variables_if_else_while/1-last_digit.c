@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Description : prints the last digit of the number stored in the variable n
  *
@@ -13,7 +13,6 @@
  *
  */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -35,5 +34,4 @@ int main(void)
 		printf("last digit of %d is %d and is less than 6 and not 0\n", n, last_num_of_n);
 	}
 	return (0);
-
 }
