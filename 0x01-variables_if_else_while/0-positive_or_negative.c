@@ -5,7 +5,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * Description : a program will assign a random number to the variable
@@ -17,7 +16,6 @@
 int main(void)
 {
 	int n;
-	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
