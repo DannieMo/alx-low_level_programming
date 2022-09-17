@@ -2,37 +2,26 @@
 
 /**
  * print_number - prints an integer.
- * @n: input integer.
- *
+ * @n: input integer to be printed.
+ i*
  * Return: no return.
  */
 
 void print_number(int n)
 {
-	unsigned int m, d, count;
+	unsigned int num = n;
 
+	/* first check if it is negative */
 	if (n < 0)
 	{
-		putchar(45);
-		m = n * -1;
-	}
-	else
-	{
-		m = n;
+		_putchar('-');
+		num = -num;
 	}
 
-	d = m;
-	count = 1;
+	/* print the first few digits */
+	if ((num / 10) > 0)
+		print_number(num / 10);
 
-	while (d > 9)
-	{
-		d /= 10;
-		count *= 10;
-	}
-
-	while (count >= 1)
-	{
-		putchar(((m / count) % 10) + 48);
-		count /= 10;
-	}
+	/* print the last digit */
+	_putchar((num % 10) + 48);
 }
