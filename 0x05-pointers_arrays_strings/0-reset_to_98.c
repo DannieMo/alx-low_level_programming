@@ -1,8 +1,12 @@
 #include "main.h"
 
 /**
- * main - reset_to_98
+ * main - Entry point
  * @n: - pointer to print
+ *
+ * Description: reset_to_98
+ *
+ * Return: Always 0 (Success)
  */
 
 void reset_to_98(int *n)
