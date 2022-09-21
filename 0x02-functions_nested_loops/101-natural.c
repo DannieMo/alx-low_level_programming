@@ -6,7 +6,7 @@
  * Description: a program that computes and prints the sum
  * of all the multiples of 3 or 5 and below 1024
  *
- * Retun: Always 0(Success)
+ * Retun: Always 0
  *
  */
 
