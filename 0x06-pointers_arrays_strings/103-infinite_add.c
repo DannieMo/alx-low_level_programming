@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * nfinite_add - adds two numbers
- * n1: first number
- * n2: second number
+ * infinite_add - adds two numbers
+ * @n1: first number
+ * @n2: second number
  * @r: buffer for result
  * @size_r: buffer size
  *
